@@ -94,3 +94,17 @@ button:focus-visible,a:focus-visible,select:focus-visible{outline:2px solid var(
 @media(prefers-reduced-motion:reduce){.career *{animation:none!important;transition:none!important}}
 @media(max-width:1100px){.career{padding:44px 35px 80px}.cc-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.cb-stats,.cb-skeleton{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:700px){.career{padding:32px 20px 64px}.career-lead{font-size:16px}.cc-grid{grid-template-columns:1fr}.cf{padding:4px 16px 16px}.cf-group{grid-template-columns:1fr;gap:8px}.cf-label{padding-top:0}.cf-chips{flex-wrap:nowrap;overflow-x:auto;margin:0 -16px;padding:2px 16px 6px;scrollbar-width:none}.cf-chips::-webkit-scrollbar{display:none}.cf-chips button,.cf-more{flex:none;white-space:nowrap}.cb-stat{padding:18px}.cb-stat strong{font-size:34px}.cb-stat .cb-stat-text{font-size:24px}.cb-chart{padding:20px 18px}.cb-chart-head{flex-direction:column;gap:4px}.cb-chart li{grid-template-columns:72px 1fr 36px;gap:10px}.cf-foot{flex-direction:column;align-items:flex-start}nav{gap:10px}}
+
+/* ===== 지원서 폼 (공고 상세) ===== */
+.apply-form{display:grid;gap:14px;margin-top:6px}
+.apply-form label{display:grid;gap:6px;font-size:12px;font-weight:650;color:#4d4560}
+.apply-form input:not([type=checkbox]),.apply-form textarea{font:inherit;font-size:14px;padding:11px 12px;border:1px solid #d9d1e3;border-radius:8px;background:#fff;color:#242039;resize:vertical}
+.apply-form input:focus,.apply-form textarea:focus{outline:2px solid #5d40db;outline-offset:1px;border-color:transparent}
+.apply-job{margin:0;font-size:12px;color:#85788f}
+.apply-job strong{color:#242039}
+.apply-hp{position:absolute!important;left:-9999px;width:1px;height:1px;opacity:0}
+.apply-form .apply-consent{display:flex;gap:8px;align-items:flex-start;font-weight:500;line-height:1.5;color:#6f6580}
+.apply-consent input{margin-top:2px}
+.apply-error{margin:0;font-size:13px;color:#a2384f}
+.apply-done{padding:18px;border:1px solid #cfe9dc;background:#f2fbf6;border-radius:10px;color:#27664d}
+.apply-done p{margin:6px 0 0;font-size:13px}
